@@ -1,5 +1,8 @@
 # Cross-UK-Gov Public Repository Leaderboard
 
+> **Fork note:** This is a fork of [uk-x-gov-software-community/xgov-opensource-repo-scraper](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper). Changes from the original:
+> - Removed `sbom.yml` and `security.yml` workflows
+
 [![Publisher](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper/actions/workflows/main.yml/badge.svg)](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper/actions/workflows/main.yml)
 
 This is a crude tool that scrapes [organisations that GitHub recognise to be UK central gov or UK councils](https://government.github.com/community/) and records some stats about that.
