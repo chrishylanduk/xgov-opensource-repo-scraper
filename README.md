@@ -2,6 +2,7 @@
 
 > **Fork note:** This is a fork of [uk-x-gov-software-community/xgov-opensource-repo-scraper](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper). The vast majority of the work was done by the original authors, this fork is purely to have control over the GitHub organisations scraped from. Changes from the original:
 > - Uses an updated list of UK public sector orgs from [chrishylanduk/government.github.com@add-uk-public-sector-orgs-202602](https://github.com/chrishylanduk/government.github.com/tree/add-uk-public-sector-orgs-202602)
+> - Added a keepalive GitHub Action to stop the scraper being disabled automatically
 > - Updated hardcoded links to point to this fork at [chrishylanduk.github.io/xgov-opensource-repo-scraper](https://chrishylanduk.github.io/xgov-opensource-repo-scraper/)
 > - Removed `sbom.yml` and `security.yml` workflows
 
