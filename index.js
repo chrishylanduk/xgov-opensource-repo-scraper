@@ -17,14 +17,14 @@ async function getOrgs() {
   const allDepartments = yaml.load(
     await (
       await fetch(
-        "https://raw.githubusercontent.com/chrisns/government.github.com/add-uk-public-sector-orgs-202602/_data/governments.yml"
+        "https://raw.githubusercontent.com/chrishylanduk/government.github.com/add-uk-public-sector-orgs-202602/_data/governments.yml"
       )
     ).text()
   );
   const researchDepts = yaml.load(
     await (
       await fetch(
-        "https://raw.githubusercontent.com/github/government.github.com/gh-pages/_data/research.yml"
+        "https://raw.githubusercontent.com/chrishylanduk/government.github.com/add-uk-public-sector-orgs-202602/_data/research.yml"
       )
     ).text()
   );

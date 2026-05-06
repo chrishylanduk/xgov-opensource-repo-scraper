@@ -2,6 +2,7 @@
 
 > **Fork note:** This is a fork of [uk-x-gov-software-community/xgov-opensource-repo-scraper](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper). Changes from the original:
 > - Removed `sbom.yml` and `security.yml` workflows
+> - Uses an updated list of UK public sector orgs from [chrishylanduk/government.github.com@add-uk-public-sector-orgs-202602](https://github.com/chrishylanduk/government.github.com/tree/add-uk-public-sector-orgs-202602)
 
 [![Publisher](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper/actions/workflows/main.yml/badge.svg)](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper/actions/workflows/main.yml)
 
