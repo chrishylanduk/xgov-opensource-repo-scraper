@@ -1,8 +1,9 @@
 # Cross-UK-Gov Public Repository Leaderboard
 
-> **Fork note:** This is a fork of [uk-x-gov-software-community/xgov-opensource-repo-scraper](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper). Changes from the original:
-> - Removed `sbom.yml` and `security.yml` workflows
+> **Fork note:** This is a fork of [uk-x-gov-software-community/xgov-opensource-repo-scraper](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper). The vast majority of the work was done by the original authors, this fork is purely to have control over the GitHub organisations scraped from. Changes from the original:
 > - Uses an updated list of UK public sector orgs from [chrishylanduk/government.github.com@add-uk-public-sector-orgs-202602](https://github.com/chrishylanduk/government.github.com/tree/add-uk-public-sector-orgs-202602)
+> - Updated hardcoded links to point to this fork at [chrishylanduk.github.io/xgov-opensource-repo-scraper](https://chrishylanduk.github.io/xgov-opensource-repo-scraper/)
+> - Removed `sbom.yml` and `security.yml` workflows
 
 [![Publisher](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper/actions/workflows/main.yml/badge.svg)](https://github.com/uk-x-gov-software-community/xgov-opensource-repo-scraper/actions/workflows/main.yml)
 
@@ -10,11 +11,11 @@ This is a crude tool that scrapes [organisations that GitHub recognise to be UK 
 
 ## Data
 
-You can get the raw data in [json format](https://uk-x-gov-software-community.github.io/xgov-opensource-repo-scraper/repos.json) which is updated nightly via github actions
+You can get the raw data in [json format](https://chrishylanduk.github.io/xgov-opensource-repo-scraper/repos.json) which is updated nightly via github actions
 
 
 ## Browse
-Or you can navigate it via the [webpage](https://uk-x-gov-software-community.github.io/xgov-opensource-repo-scraper) (that loads this json) 
+Or you can navigate it via the [webpage](https://chrishylanduk.github.io/xgov-opensource-repo-scraper) (that loads this json) 
 
 <img width="1573" alt="image" src="https://user-images.githubusercontent.com/715120/194124862-96ce92b0-f915-49b0-9508-f8e1d5f82386.png">
 
@@ -23,4 +24,4 @@ Or you can import the json dynamically into your favourite tool.
 To demonstrate this I've created [a Google Sheet](https://docs.google.com/spreadsheets/d/1S4k63hpb2oLEUPva1N2iTNi-NsyRKLystYGKd6zuLII/edit?usp=sharing) for this
 <img width="1758" alt="image" src="https://user-images.githubusercontent.com/715120/194125329-9bb868d6-793f-4da7-81d6-8bc6c766fe7d.png">
 
-You can also [explore the data with Datasette Lite](https://lite.datasette.io/?json=https://www.uk-x-gov-software-community.org.uk/xgov-opensource-repo-scraper/repos.json#/data/repos) which loads the JSON into a SQLite database in your browser via WebAssembly, giving you full SQL querying, filtering, and export capabilities with no server required.
+You can also [explore the data with Datasette Lite](https://lite.datasette.io/?json=https://chrishylanduk.github.io/xgov-opensource-repo-scraper/repos.json#/data/repos) which loads the JSON into a SQLite database in your browser via WebAssembly, giving you full SQL querying, filtering, and export capabilities with no server required.
